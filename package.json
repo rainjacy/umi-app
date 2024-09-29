@@ -6,6 +6,7 @@
     "dev": "max dev",
     "format": "prettier --cache --write .",
     "postinstall": "max setup",
+    "lint": "eslint src/**/*.ts src/**/*.tsx",
     "prepare": "husky",
     "setup": "max setup",
     "start": "npm run dev",
